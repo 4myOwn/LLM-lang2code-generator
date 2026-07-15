@@ -1,0 +1,28 @@
+{
+  "name": "qwen-coder",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^26.1.1",
+    "jest": "^30.4.2",
+    "reflect-metadata": "^0.2.2",
+    "ts-jest": "^29.4.11",
+    "typeorm": "^1.0.0",
+    "typescript": "^5.9.3",
+    "typescript-logging": "^2.2.0"
+  }
+}
